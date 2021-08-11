@@ -6,9 +6,18 @@
 }
 
 body {
-   min-height: 100px;
-   margin-bottom: 20px;
-   clear: both;
+    min-height: 100px;
+    margin-bottom: 20px;
+    clear: both;
+ }
+
+footer {
+    background-color: #ccc;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom:0;
+    padding: 5px;
 }
 
 ul {
@@ -38,6 +47,8 @@ li {
     padding:0 20px;
     width: 100%;
     min-height: 500px;
+    display: inline-flex;
+    padding: 5px;
 
 }
 
@@ -50,8 +61,8 @@ li {
 }
 
 .title {
-background-color: #ccc;
-text-align: center;
+    background-color: #ccc;
+    text-align: center;
 }
 
 .title h2 {
@@ -60,54 +71,58 @@ text-align: center;
 }
 
 .sectext {
-    display: flex;
+    display: block;
     text-align: center;
-    padding: 0;
+    padding: 10px;
     background-color: floralwhite;
     align-items: center;
     justify-content: center;
     height: auto;
     overflow: auto;
-}
-
-.texts {
-    text-align: center;
-}
-
-.texts p {
-    margin: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
 }
 
 .textexplain {
     width: 100%;
-    margin: 50px;
-    font-size: 26;
+    font-size: 24;
 }
 
 .textexplain1 {
     margin: 5%;
-    font-size: 26;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-size: 24;
     background-color: #ccc;
     padding: 10px;
 }
 
-.textinstall {
-    font-size: 22;
-    background-color: #ccc;
-
-}
-
-.textgateway {
-    font-size: 22;
-    padding-bottom: 30px;
-    background-color: #ccc;
-}
-
-footer {
-    background-color: #ccc;
+.textfilaexplain {
     width: 100%;
-    text-align: center;
-    position: fixed;
-    bottom:0;
-    padding: 5px;
+    font-size: 24;
 }
+
+.textfilaexplain1 {
+    margin: 2%;
+    margin-top: 15px;
+    font-size: 19;
+    background-color: #ccc;
+    padding: 10px;
+}
+
+.sectext img {
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+.textfilaexplain2 {
+    margin: 2%;
+    margin-top: 15px;
+    font-size: 19;
+    background-color: #ccc;
+    padding: 10px;
+}
+
