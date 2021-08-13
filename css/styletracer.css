@@ -88,22 +88,3 @@ li {
 .sectext img {
     width: 70%;
 }
-
-.textexplain {
-    width: 100%;
-    font-size: 24;
-}
-
-.textexplain1 {
-    margin: 5%;
-    margin-top: 15px;
-    margin-bottom: 10px;
-    font-size: 24;
-    background-color: #ccc;
-    padding: 10px;
-}
-
-
-.sectext h4 {
-    color: gray;
-}
